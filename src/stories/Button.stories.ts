@@ -40,3 +40,9 @@ Small.args = {
   size: 'small',
   label: 'Button',
 };
+Small.parameters = {
+  design: {
+    type: 'figma',
+    url: "https://www.figma.com/file/YR9XFZtHepsHkWAllQYpsn/Untitled"
+  }
+}
