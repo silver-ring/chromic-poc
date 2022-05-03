@@ -47,7 +47,6 @@ import { User } from './User';
           ></storybook-button>
           <storybook-button
             *ngIf="!user"
-            primary
             size="small"
             primary="true"
             class="margin-left"
