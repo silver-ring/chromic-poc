@@ -1,7 +1,7 @@
 import {Component, Input} from "@angular/core";
 
 @Component({
-  selector: 'dv-typography-header',
+  selector: 'dv-header',
   templateUrl: 'header.component.html',
   styleUrls: ['header.component.scss']
 })
