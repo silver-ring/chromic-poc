@@ -1,0 +1,14 @@
+.page-header__container {
+  .actions__container {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+
+    .action-buttons__container {
+      display: block;
+      .action-button:not(:last-child) {
+        margin-right: 5px;
+      }
+    }
+  }
+}
