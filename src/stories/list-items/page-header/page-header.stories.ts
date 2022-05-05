@@ -23,7 +23,9 @@ export default {
       control: {
         type: 'text'
       }
-    }
+    },
+    clickControlRules: { action: 'clickControlRules' },
+    clickActionRules: { action: 'clickActionRules' }
   },
 } as Meta;
 

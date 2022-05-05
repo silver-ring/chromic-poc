@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'storybook-poc';
+  clickNumber = 0;
+
+  incrementClick() {
+    ++this.clickNumber
+  }
 }

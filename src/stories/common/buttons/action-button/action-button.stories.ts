@@ -12,7 +12,8 @@ export default {
       control: {
         type: 'text'
       }
-    }
+    },
+    click: { action: 'click' }
   },
 } as Meta;
 
