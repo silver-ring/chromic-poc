@@ -1,4 +1,4 @@
-import {Component, Input} from "@angular/core";
+import {Component, EventEmitter, Input, Output} from "@angular/core";
 
 @Component({
   selector: 'dv-page-header',
@@ -9,5 +9,18 @@ export class PageHeaderComponent {
 
   @Input()
   placeholder?: string;
+
+  @Output()
+  clickControlRules = new EventEmitter<void>()
+
+  @Output()
+  clickActionRules = new EventEmitter<void>()
+
+  onClickControlRules() {
+    this.clickControlRules.emit();
+  }
+  onClickActionRules() {
+    this.clickActionRules.emit();
+  }
 
 }

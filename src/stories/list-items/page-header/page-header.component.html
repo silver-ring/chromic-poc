@@ -4,8 +4,8 @@
   </div>
   <div class="actions__container">
       <div class="action-buttons__container">
-        <dv-action-button class="action-button" label="Action Rules"></dv-action-button>
-        <dv-action-button class="action-button" label="Control Rules"></dv-action-button>
+        <dv-action-button class="action-button" label="Action Rules" (click)="onClickActionRules()"></dv-action-button>
+        <dv-action-button class="action-button" label="Control Rules" (click)="onClickControlRules()"></dv-action-button>
       </div>
       <div>
         <dv-filter-textbox placeholder="Filter..."></dv-filter-textbox>
