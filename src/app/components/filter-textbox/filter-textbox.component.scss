@@ -1,0 +1,21 @@
+.textbox__container {
+
+  width: 20rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .textbox {
+    width: 100%;
+    height: 100%;
+  }
+
+  .icon__container {
+    width: 0;
+    .icon {
+      left: -2rem;
+      position: relative;
+    }
+  }
+}
